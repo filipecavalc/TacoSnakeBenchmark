@@ -4,7 +4,10 @@
     "*": "ask",
     "read": "allow",
     "edit": "ask",
-    "bash": "ask",
+    "bash": {
+      "*": "ask",
+      "ls": "allow"
+    },
     "webfetch": "ask"
   }
 }
