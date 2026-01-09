@@ -1,4 +1,4 @@
-# AI Model Capabilities Test with Agents
+# TacoSnakeBenchmark
 
 ![alt](./snaaaake.gif)
 
