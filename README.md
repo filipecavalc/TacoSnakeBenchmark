@@ -1,3 +1,5 @@
+WARNING: STILL BUILDING THE METODOLOGY, i do not know yet if i will keep this way, this Still under construction!
+
 # TacoSnakeBenchmark
 
 ![alt](./snaaaake.gif)
