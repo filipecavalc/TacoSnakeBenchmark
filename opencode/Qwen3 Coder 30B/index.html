@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game - Taco Edition</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <div class="score-board">
+                <div class="score">Score: <span id="score">0</span></div>
+                <div class="high-score">High Score: <span id="high-score">0</span></div>
+            </div>
+            <div class="game-state">
+                <button id="start-btn">Start Game</button>
+                <button id="pause-btn">Pause</button>
+            </div>
+        </div>
+        <canvas id="game-canvas" width="600" height="400"></canvas>
+        <div class="game-controls">
+            <p>Use arrow keys or WASD to control the snake</p>
+        </div>
+        <div class="game-over" id="game-over" style="display: none;">
+            <h2>Game Over!</h2>
+            <p>Your score: <span id="final-score">0</span></p>
+            <button id="restart-btn">Play Again</button>
+        </div>
+    </div>
+    <script src="src/js/main.js"></script>
+</body>
+</html>

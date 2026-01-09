@@ -1,0 +1,30 @@
+{
+  "name": "snake-taco-game",
+  "version": "1.0.0",
+  "description": "A Snake game with tacos theme",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "test": "jest",
+    "lint": "eslint src/js/**/*.js",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "game",
+    "snake",
+    "taco",
+    "html5",
+    "canvas"
+  ],
+  "author": "Snake Taco Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  }
+}
