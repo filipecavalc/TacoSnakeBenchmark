@@ -6,7 +6,7 @@
     "edit": "ask",
     "bash": {
       "*": "ask",
-      "ls": "allow"
+      "ls*": "allow"
     },
     "webfetch": "ask"
   }
