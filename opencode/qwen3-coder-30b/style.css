@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #3a3a3a;
+    border-radius: 5px;
+}
+
+.score-display {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.controls-info {
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+#gameCanvas {
+    background-color: #000;
+    border: 2px solid #444;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.game-overlay {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: -400px 0 0 -400px;
+    pointer-events: none;
+}
+
+.game-over-screen, .start-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #ff6b6b;
+    pointer-events: all;
+}
+
+.game-over-screen h2, .start-screen h2 {
+    color: #ff6b6b;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.game-over-screen p, .start-screen p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.game-over-screen {
+    display: none;
+}
+
+.restart-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    pointer-events: all;
+}
+
+.restart-button:hover {
+    background-color: #45a049;
+}
+
+.start-screen {
+    border: 2px solid #4CAF50;
+}
+
+.start-screen h2 {
+    color: #4CAF50;
+}
