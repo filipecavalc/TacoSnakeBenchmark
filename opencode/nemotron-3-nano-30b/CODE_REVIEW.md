@@ -1,6 +1,10 @@
 # Human generated comments below
 
-The game do not start
+This model presented a lot of issues trying to run the cli commands to do agentic actions, edit, create, read files.
+The game do not start,
+post full test, he forgot to call the initGame, the snake move to fast and hit the wall instantly.
+At the end i needed to ask him to just write the changes he wants to do and o changed myself, just to have a working version
+without directly me solving the issue.
 
 # AI comments generated below
 
