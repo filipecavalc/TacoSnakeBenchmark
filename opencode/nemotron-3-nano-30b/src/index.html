@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taco Snake</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="ui">
+    <span id="score">0</span>
+  </div>
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+  <div id="overlay" class="hidden">
+    <p id="message">Game Over</p>
+    <p id="finalScore">0</p>
+    <button onclick="restart()">Restart</button>
+  </div>
+  <script src="./scripts/game.js"></script>
+</body>
+</html>

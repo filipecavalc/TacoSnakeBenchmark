@@ -1,0 +1,20 @@
+body {
+  background: #222;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#gameCanvas {
+  border: 4px solid #fff;
+}
+.hidden {
+  display: none;
+}
+#ui span {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
